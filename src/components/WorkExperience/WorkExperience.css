@@ -1,0 +1,17 @@
+.experience-container {
+  margin: 4rem 0.9rem;
+  position: relative;
+}
+
+.experience-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 768px) {
+  .experience-container h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1.9rem;
+  }
+}
