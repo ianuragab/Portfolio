@@ -1,4 +1,5 @@
 import "./Hero.css";
+import resume from '../../assets/ResumeAB.pdf';
 import avatar from '../../assets/avatar.jpeg';
 import html from '../../assets/html.png';
 import css from '../../assets/css.png';
@@ -14,6 +15,9 @@ const Hero = () => {
           Passionate Frontend Development | Transfroming Ideas into Seamless and
           Visually Stunning Web Solutions
         </p>
+        <a href={resume} rel="noreferrer" target="_blank">
+          <button className="contact-btn">Resume</button>
+        </a>
       </div>
 
       <div className="hero-img">
