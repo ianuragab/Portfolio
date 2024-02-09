@@ -7,9 +7,9 @@ const ProjectCard = ({ title, iconUrl, isActive, onClick }) => {
       className={`project-card ${isActive ? "active" : ""}`}
       onClick={() => onClick()}
     >
-      <div className="project-icon">
+{/*       <div className="project-icon">
         <img src={iconUrl} alt={title} />
-      </div>
+      </div> */}
 
       <span>{title}</span>
     </div>
