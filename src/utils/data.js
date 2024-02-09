@@ -13,8 +13,8 @@ export const SKILLS = [
     title: "Backend",
     icon: "src/assets/backend.webp",
     skills: [
-      { skill: "Node.js", percentage: "64%" },
-      { skill: "Express.js", percentage: "58%" },
+      { skill: "Node.js", percentage: "58%" },
+      { skill: "Express.js", percentage: "49%" },
     ],
   },
   {
@@ -44,7 +44,7 @@ export const WORK_EXPERIENCE = [
     responsibilities: [
       "Assisted in the development of a new Dashboard & HomePage, contributing to the implementation of frontend features.",
       "Conducted performance optimization tasks, resulting in a 15% improvement in page loading times.",
-      "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and reslving problems.",
+      "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and resolve problems.",
       "Gained hands-on experience with version control systems, specifically Git and Bitbucket, in a collaborative development environment.",
     ],
   },
@@ -52,7 +52,7 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    title: "Moviex",
+    title: "Movix",
     icon: "src/assets/moviex.jpeg",
     desc: [
       "Responsive and user-friendly interface design.",
@@ -67,7 +67,7 @@ export const PROJECTS = [
     desc: [
       "Demonstrated strong front-end skills and problem solving in business oriented web applications",
       "Implemented data visualization, user authentication, sales tracking, todo list and calendar management",
-      "Texh Stack: React.js, CSS, ChartVisualizer",
+      "Tech Stack: React.js, CSS",
       "Click to View  "
     ],
   },
