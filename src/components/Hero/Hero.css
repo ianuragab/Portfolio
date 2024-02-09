@@ -44,6 +44,15 @@
   line-height: 2rem;
 }
 
+.hero-content a {
+  text-decoration: none;
+}
+
+.hero-content .contact-btn {
+  margin: 1rem 0 0 1rem;
+  font-size: 1.1rem;
+}
+
 .hero-img {
   flex: 1;
   display: flex;
