@@ -13,8 +13,8 @@ export const SKILLS = [
     title: "Backend",
     icon: "src/assets/backend.webp",
     skills: [
-      { skill: "Node.js", percentage: "58%" },
-      { skill: "Express.js", percentage: "49%" },
+      { skill: "Node.js", percentage: "67%" },
+      { skill: "Express.js", percentage: "53%" },
     ],
   },
   {
@@ -42,11 +42,11 @@ export const WORK_EXPERIENCE = [
     title: "Frontend Intern at Bizcrum Infotech",
     date: "June 2023 - August 2023",
     responsibilities: [
-      "Assisted in the development of a new Dashboard & HomePage, contributing to the implementation of frontend features.",
       "Conducted performance optimization tasks, resulting in a 15% improvement in page loading times.",
-      "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and resolve problems.",
       "Gained hands-on experience with version control systems, specifically Git and Bitbucket, in a collaborative development environment.",
-    ],
+      "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and reslving problems.",
+      "Assisted in the development of a new Dashboard & HomePage, contributing to the implementation of frontend features.", 
+      ]
   },
 ];
 
