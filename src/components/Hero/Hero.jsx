@@ -1,5 +1,5 @@
 import "./Hero.css";
-import resume from '../../assets/ResumeAB.pdf';
+import resume from '../../assets/Resume.pdf';
 import avatar from '../../assets/avatar.jpeg';
 import html from '../../assets/html.png';
 import css from '../../assets/css.png';
