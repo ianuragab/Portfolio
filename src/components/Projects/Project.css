@@ -1,5 +1,5 @@
 .project-container {
-  margin: 4rem 0.8rem;
+  margin: 3rem 0.8rem;
   position: relative;
 }
 
@@ -49,13 +49,15 @@
 }
 
 .project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 0.7rem;
   border: 2px solid #6751b9;
-  padding: 1.2rem 3rem;
+  padding: 32px 24px;
   text-align: center;
   background: rgba(27, 17, 47, 0.4);
   backdrop-filter: blur(1rem);
-  position: relative;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -64,7 +66,6 @@
 .project-card.active {
   background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
 }
-
 
 .project-card span {
   font-size: 1.3rem;
@@ -149,9 +150,6 @@
     padding: 1.3rem;
   }
 
-  .project-card {
-    padding: 1.7rem;
-  }
   .project-card span {
     font-size: 1rem;
   }
@@ -169,6 +167,10 @@
   .project-content {
     flex-direction: column-reverse;
     gap: 3rem;
+  }
+
+  .project-card {
+    padding: 12px;
   }
 
   .projects {

@@ -3,7 +3,7 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <div className="footer">
-      © 2024 Jiva Infotech, Happy Coding
+      Jiva Infotech, Happy Coding 🧑‍💻
     </div>
   )
 }

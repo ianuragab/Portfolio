@@ -1,5 +1,5 @@
 .experience-container {
-  margin: 4rem 0.9rem;
+  margin: 3rem 0.9rem;
   position: relative;
 }
 
@@ -8,10 +8,32 @@
   font-weight: 600;
   margin-bottom: 2.4rem;
 }
+.experience-slider {
+  display: flex;
+  gap: 3rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.experience-slider > * {
+  flex: 0 0 86%;
+  scroll-snap-align: center;
+}
 
 @media (max-width: 768px) {
   .experience-container h5 {
     font-size: 1.3rem;
     margin-bottom: 1.9rem;
+  }
+  .experience-slider {
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .experience-slider > * {
+    flex: 1 1 auto;
   }
 }

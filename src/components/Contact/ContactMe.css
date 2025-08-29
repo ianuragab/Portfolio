@@ -1,5 +1,5 @@
 .contact-container {
-  margin: 4rem 0;
+  margin: 3rem 0.8rem;
   position: relative;
 }
 
@@ -11,7 +11,7 @@
 
 .contact-content {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 /***      Contact Info Card CSS     ***/
@@ -69,7 +69,7 @@ form {
 
 form input, form textarea {
   flex: 1;
-  width: 98%;
+  width: 100%;
   font-size: 0.9rem;
   color: #fff;
   background: #130f2a;

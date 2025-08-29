@@ -7,7 +7,7 @@ const WorkExperience = () => {
     <section id="experience" className="experience-container">
       <h5>Work Experience</h5>
 
-      <div className="experience-content">
+      <div className="experience-slider">
         {WORK_EXPERIENCE.map((item) => (
           <ExperienceCard key={item.title} details={item} />
         ))}
